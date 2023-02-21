@@ -1,0 +1,67 @@
+body {
+    background-image: url(https://picfiles.alphacoders.com/537/537209.jpg);
+}
+.tittle {
+    margin: 0;
+    margin-right: -50%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em;
+    display: flex;
+    flex-flow:column wrap;
+    border-radius: 30rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5rem);
+    color:rgb(190, 90, 235) ;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.5s;
+}
+
+.advices {
+    margin: 0;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 50em;
+    display: flex;
+    flex-flow: column wrap;
+    border-radius: 3rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter:blur(5rem);
+    color:rgb(190, 90, 235);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 35px;
+    transition: 0.5s;
+}
+
+.advices:hover {
+    background: skyblue;
+}
+.tittle:hover {
+    background: skyblue;
+}
+.buttonPlace{
+    padding-top: 1px;
+    padding-left: 1235px;
+}
+#button{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 50px 35px;
+    color: rgb(190, 90, 235);
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+    transition: 0.75s;
+}
+#button:hover{
+    background: skyblue;
+}
